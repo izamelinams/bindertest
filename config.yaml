@@ -1,0 +1,10 @@
+proxy:
+  secretToken: "00eefe86863c7b91ffed3847eb024b808441b844869f815805d94bb9173f4830"
+singleuser:
+  image:
+    # Get the latest image tag at:
+    # https://hub.docker.com/r/jupyter/datascience-notebook/tags/
+    # Inspect the Dockerfile at:
+    # https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook/Dockerfile
+    name: izamelinams/tensormodified
+    tag: firsttry
