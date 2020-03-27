@@ -1,0 +1,19 @@
+jupyter:
+  image:
+    repository: tensorflow/tensorflow
+    tag: 1.6.0-devel-gpu
+    pullPolicy: IfNotPresent
+  password: tensorflow
+  resources:
+    limits:
+      nvidia.com/gpu: 1
+  requests:
+      nvidia.com/gpu: 1
+tensorboard: 
+  image:   
+    repository: tensorflow/tensorflow
+    tag: 1.6.0-devel
+    pullPolicy: IfNotPresent
+service:
+  type: LoadBalancer
+
